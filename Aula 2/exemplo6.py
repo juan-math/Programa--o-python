@@ -2,7 +2,7 @@
 print(" Óla seja bem-vindo a lascote")
 nome=input("qual seu nome")
 print("qual sua idade")
-idade = int(inut())
+idade = int(inut(4%))
 valor_calça_azul= 120
 valor_jaqueta_verde = 150
 valor_com_desconto_valor_calça_azul = valor_calça_azul - idade
